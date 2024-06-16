@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family:'Courier New';
+    cursor: pointer;
+}
+.title {
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 70px;
+}
+.start {
+    display: flex;
+    justify-content: center;
+}
+.circle1 {
+    background-color: #52EAF3;
+    height: 53px;
+    width: 53px;
+    border-radius: 50px;
+    position: absolute;
+    left: 350px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px gray;
+}
+.circle2 {
+    background-color: #52EAF3;
+    height: 134px;
+    width: 134px;
+    border-radius: 100px;
+    position: absolute;
+    left: 285px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px gray;
+    z-index: -2;
+}
+.circle3 {
+    background-color: #31E1EC;
+    height: 44px;
+    width: 44px;
+    border-radius: 100px;
+    position: absolute;
+    left: 270px;
+    margin-top: 160px;
+    box-shadow: 0px 0px 10px gray;
+    z-index: -3;
+}
+.circle4 {
+    background-color: #52EAF3;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    position: absolute;
+    right: 670px;
+    margin-top: 140px;
+    box-shadow: 0px 0px 10px gray;
+    z-index: -3;
+}
+.circle5 {
+    background-color: #52EAF3;
+    height: 58px;
+    width: 58px;
+    border-radius: 100px;
+    position: absolute;
+    right: 560px;
+    margin-top: 140px;
+    box-shadow: 0px 0px 10px gray;
+    z-index: -3;
+}
+.circle6 {
+    background-color: #52EAF3;
+    height: 128px;
+    width: 128px;
+    border-radius: 100px;
+    position: absolute;
+    right: 260px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px gray;
+    z-index: -3;
+}
+.circle7 {
+    background-color: #50D9E1;
+    height: 53px;
+    width: 53px;
+    border-radius: 100px;
+    position: absolute;
+    right: 460px;
+    margin-top: 47px;
+    box-shadow: 0px 0px 10px gray;
+    z-index: -3;
+}
+.circle8 {
+    background-color: #52EAF3;
+    height: 43px;
+    width: 43px;
+    border-radius: 100px;
+    position: absolute;
+    right: 400px;
+    margin-top: 37px;
+    box-shadow: 0px 0px 10px gray;
+    z-index: -3;
+}
+.circle9 {
+    background-color: #52EAF3;
+    height: 23px;
+    width: 23px;
+    border-radius: 100px;
+    position: absolute;
+    right: 600px;
+    margin-top: 17px;
+    box-shadow: 0px 0px 10px gray;
+    z-index: -3;
+}
+.child {
+    height: 280px;
+    width: 280px;
+    border-radius: 60px;
+    margin-right: 100px;
+    margin-top: 150px;
+}
+.picture {
+    display: flex;
+    justify-content: end;
+}
+.e-mail {
+    top: 300px;
+    width: 900px;
+    height: 50px;
+    position: absolute;
+    margin-left: 50px;
+}
+.password {
+    top: 400px;
+    width: 900px;
+    height: 50px;
+    position: absolute;
+    margin-left: 50px;
+}
+.date {
+    top: 500px;
+    width: 900px;
+    height: 50px;
+    position: absolute;
+    margin-left: 50px;
+}
+h3 {
+    margin-top: 350px;
+    position: absolute;
+    margin-left: 410px;
+}
+.register {
+    margin-top: 150px;
+    height: 55px;
+    width: 300px;
+    text-align: center;
+    background-color: #31E1EC;
+    border-radius: 30px;
+    margin-left: 160px;
+    position: absolute;
+    transition: 0.5s;
+}
+.register:hover{
+    margin-top: 160px;
+    color: white;
+    background-color: rgb(11, 143, 143);
+}
+.shadow {
+    margin-top: 160px;
+    position: absolute;
+    height: 55px;
+    width: 300px;
+    text-align: center;
+    background-color: #125257;
+    border-radius: 30px;
+    margin-left: 160px;
+    transition: 0.5s;
+    z-index: -2;
+}
+h2 {
+    padding-top: 13px;
+    font-size: 30px;
+}
+.robot1 {
+    height: 200px;
+    width: 150px;
+    margin-left: 540px;
+    margin-top: 40px;
+}
+.pramougolnik1 {
+    background-color: 50D9E1;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    margin-left: 500px;
+    top: 630px;
+    z-index: -3;
+}
+.pramougolnik2 {
+    background-color: 50D9E1;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    margin-left: 560px;
+    top: 720px;
+    z-index: -3;
+}
+input {
+    font-size: 40px;
+}

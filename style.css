@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family:'Inter';
+}
+.nav {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: space-around;
+    width: 1150px;
+    height: 80px;
+    background-color: aqua;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px rgb(71, 71, 71);
+}
+h1 {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.Courses {
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+.Courses:hover {
+    color: rgb(0, 85, 85);
+    font-size: 35px;
+}
+.Menu {
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+.Menu:hover {
+    color: rgb(0, 85, 85);
+    font-size: 35px;
+}
+header {
+    display: flex;
+}
+.circle {
+    position: absolute;
+    border-radius: 50px;
+    margin-left: 1215px;
+    margin-top: 5px;
+    height: 80px;
+    width: 80px;
+    border: 5px solid black;
+}
+.avatar {
+    margin-left: 80px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.claa {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.burger-none {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+}
+.cross-none {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+}
+.burger-on {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+.cross-on {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+.elements-nav-bar {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.burger {
+    height: 150%;
+    width: 150%;
+    background-color: rgb(199, 199, 199);
+}
+.navbar-on {
+    position: absolute;
+    padding-left: 700px;
+    padding-top: 150px;
+}
+.navbar-none {
+    display: none;
+}
+.vstuplenie {
+    position: absolute;
+    margin-top: 200px;
+    width: 500px;
+    margin-left: 100px;
+}
+.vstuplenie1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+.computer {
+    position: absolute;
+    border-radius: 50px;
+    margin-top: 150px;
+    margin-left: 800px;
+    display: inline-block;
+}
+.cour {
+    margin-top: 650px;
+    margin-left: 50px;
+    padding-bottom: 100px;
+}
+.cour1 {
+    font-size: 70px;
+    font-weight: 900;
+}
+@keyframes example {
+    from {background-color: black;}
+    to {background-color: rgb(103, 103, 223);}
+  }
+.palka {
+    width: 990px;
+    height: 30px;
+    background-color: black;
+    animation: example 4s linear 2s infinite alternate;
+    margin-top: 60px;
+}
+.circler {
+    width: 100px;
+    height: 100px;
+    background-color: #52EAF3;
+    position: absolute;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px ;
+    margin-left: 750px;
+    margin-top: 100px;
+    z-index: -1;
+}
+.computer:hover .circler {
+    width: 1200px;
+    height: 120px;
+    background-color: #a3faff;
+    transition: 0.5s;
+}
+.circlerr {
+    width: 90px;
+    height: 90px;
+    background-color: #52EAF3;
+    position: absolute;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px ;
+    margin-left: 1050px;
+    margin-top: 120px;
+}
+.circlerrr {
+    width: 120px;
+    height: 120px;
+    background-color: #28c9d1;
+    position: absolute;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px ;
+    margin-left: 1050px;
+    margin-top: 320px;
+    z-index: -1;
+}
+.circlerrrr {
+    width: 60px;
+    height: 60px;
+    background-color: #28c9d1;
+    position: absolute;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px ;
+    margin-left: 1150px;
+    margin-top: 220px;
+    z-index: -1;
+}
+.circlerrrrr {
+    width: 40px;
+    height: 40px;
+    background-color: #52EAF3;
+    position: absolute;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px ;
+    margin-left: 750px;
+    margin-top: 320px;
+}
+main {
+    display: block;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    grid-template-rows: repeat(3, 1.5fr);
+    text-align: center;
+}
+.AI {
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.WD {
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.WD:hover {
+    height: 270px;
+    width: 270px;
+}
+.AI:hover {
+    height: 270px;
+    width: 270px;
+}
+.HC {
+    height: 230px;
+    width: 330px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.HC:hover {
+    height: 250px;
+    width: 350px;
+}
+.python {
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.python:hover {
+    height: 270px;
+    width: 270px;
+}
+.JS {
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.JS:hover {
+    height: 270px;
+    width: 270px;
+}
+.C {
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.C:hover {
+    height: 270px;
+    width: 270px;
+}
+.c1 {
+    height: 250px;
+    width: 280px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.c1:hover {
+    height: 270px;
+    width: 300px;
+}
+.go {
+    height: 250px;
+    width: 280px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.go:hover {
+    height: 270px;
+    width: 300px;
+}
+.bx-element {
+    text-decoration: none;
+    color: black;
+}
